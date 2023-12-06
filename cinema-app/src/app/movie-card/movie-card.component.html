@@ -1,0 +1,13 @@
+<div >
+    <div class="card position-relative">
+        <a  [routerLink]="['/detail', movieData.id]"><img src="{{movieData.image}}" class="card-img-top" alt="Movie 1"></a>
+        <button class="btn btn-outline-danger btn-wishlist position-absolute top-0 end-0 m-2" 
+        (click)="addToWatchList(movieData.title)">
+            {{isInWatchList?  'On my watchlist' : 'Add to Watchlist'}}
+        </button>
+        <div class="card-body">
+            <a routerLink="/detail"><h5 class="card-title">{{movieData.title}}</h5></a>
+            <a routerLink="/detail"><p class="card-text">{{movieData.description}}.</p></a>
+        </div>
+    </div>
+</div>

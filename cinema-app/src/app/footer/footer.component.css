@@ -1,0 +1,29 @@
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto;
+}
+
+
+.phone-number {
+    font-size: 18px;
+    margin-top: 10px;
+}
